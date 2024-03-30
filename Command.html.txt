@@ -1,0 +1,27 @@
+npx firequiz
+
+npm init (Package.Json) - file
+    (Licence = MIT)
+    {   "main": "index.js",
+        "type": "module",
+    }
+
+code .
+
+npm --init (Tsconfig.json) - file for chages
+    {   13 # Target "ES2022" (latest V)
+        28 # Modeule "NodeNext"
+        30 # | "NodeNext" (\\ | uncomment for module resolution)
+        }
+
+npm i Inquirer (Inquirer) - file  for dependency in package.json 
+(NPM website (npm.js.com))
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+    "inquirer": "^9.2.16"
+  }
+
+npm i --save-dev @types/inquirer (for dev dependencies) 
+    devDependencies": {
+    "@types/inquirer": "^9.0.7"}
